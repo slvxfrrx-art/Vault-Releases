@@ -1,10 +1,10 @@
-# Vault v1.5.13
+# Vault v1.5.14
 
 Vault is a local-first desktop app for organizing protected operational connection data.
 
 ## Download
 
-- Vault_1.5.13_x64-setup.exe
+- Vault_1.5.14_x64-setup.exe
 
 ## Automatic updates
 
@@ -13,17 +13,19 @@ This release is available through signed automatic updates.
 Updater metadata:
 
 - latest.json
-- Vault_1.5.13_x64-setup.exe.sig
+- release-summary.json
+- Vault_1.5.14_x64-setup.exe.sig
 
-## What is new in v1.5.13
+## What is new in v1.5.14
 
-- SAP GUI Landscape import from SAPUILandscape.xml.
-- SAP connections are grouped under the related Client.
-- Import preview before writing data.
-- Imported data is placed under Importati -> SAP GUI.
-- No SAP passwords, users or VPNs are imported.
+- Windows Hello unlock support on Windows.
+- Configure Windows Hello from Settings -> Sicurezza after master-password unlock.
+- Login-screen Windows Hello unlock when configured and available.
+- Windows Security prompt stays visible above Vault during verification.
+- DPAPI CurrentUser protection for the local VaultKey unlock secret.
+- Master-password unlock remains available as fallback.
 
-## Changes included from v1.5.9 to v1.5.13
+## Changes included from v1.5.9 to v1.5.14
 
 ### v1.5.9
 
@@ -70,9 +72,18 @@ Updater metadata:
 - SAP services under the same SAP node imported as Connections of the same Client.
 - SAP import does not create VPNs, users, credentials or passwords.
 
+### v1.5.14
+
+- Windows Hello unlock support on Windows.
+- Configure Windows Hello after master-password unlock.
+- Login-screen Windows Hello unlock when configured and available.
+- Windows Security prompt stays visible above Vault during verification.
+- DPAPI CurrentUser protection for the local VaultKey unlock secret.
+- Master-password unlock remains available as fallback.
+
 ## Manual installation
 
-1. Download `Vault_1.5.13_x64-setup.exe`.
+1. Download `Vault_1.5.14_x64-setup.exe`.
 2. Run the installer.
 3. Existing user data is preserved.
 
