@@ -1,10 +1,10 @@
-# Vault v1.6.0
+# Vault v1.6.5
 
 Vault is a local-first desktop app for organizing protected operational connection data.
 
 ## Download
 
-- Vault_1.6.0_x64-setup.exe
+- Vault_1.6.5_x64-setup.exe
 
 ## Automatic updates
 
@@ -14,9 +14,9 @@ Updater metadata:
 
 - latest.json
 - release-summary.json
-- Vault_1.6.0_x64-setup.exe.sig
+- Vault_1.6.5_x64-setup.exe.sig
 
-## What is new in v1.6.0
+## What is new in v1.6.5
 
 - Windows Hello unlock support on Windows.
 - Configure Windows Hello from Settings -> Sicurezza after master-password unlock.
@@ -25,7 +25,7 @@ Updater metadata:
 - DPAPI CurrentUser protection for the local VaultKey unlock secret.
 - Master-password unlock remains available as fallback.
 
-## Changes included from v1.5.9 to v1.6.0
+## Changes included from v1.5.9 to v1.6.5
 
 ### v1.5.9
 
@@ -72,7 +72,7 @@ Updater metadata:
 - SAP services under the same SAP node imported as Connections of the same Client.
 - SAP import does not create VPNs, users, credentials or passwords.
 
-### v1.6.0
+### v1.6.5
 
 - Windows Hello unlock support on Windows.
 - Configure Windows Hello after master-password unlock.
@@ -83,7 +83,7 @@ Updater metadata:
 
 ## Manual installation
 
-1. Download `Vault_1.6.0_x64-setup.exe`.
+1. Download `Vault_1.6.5_x64-setup.exe`.
 2. Run the installer.
 3. Existing user data is preserved.
 
