@@ -1,10 +1,10 @@
-# Vault v1.6.5
+# Vault v1.6.6
 
 Vault is a local-first desktop app for organizing protected operational connection data.
 
 ## Download
 
-- Vault_1.6.5_x64-setup.exe
+- Vault_1.6.6_x64-setup.exe
 
 ## Automatic updates
 
@@ -14,18 +14,17 @@ Updater metadata:
 
 - latest.json
 - release-summary.json
-- Vault_1.6.5_x64-setup.exe.sig
+- Vault_1.6.6_x64-setup.exe.sig
 
-## What is new in v1.6.5
+## What is new in v1.6.6
 
-- Windows Hello unlock support on Windows.
-- Configure Windows Hello from Settings -> Sicurezza after master-password unlock.
-- Login-screen Windows Hello unlock when configured and available.
-- Windows Security prompt stays visible above Vault during verification.
-- DPAPI CurrentUser protection for the local VaultKey unlock secret.
-- Master-password unlock remains available as fallback.
+- GitHub release builds receive the Google Drive OAuth secrets needed for connection.
+- Release validation blocks builds without Google Client ID or Client Secret configured.
+- Google Drive shows a clearer message when OAuth configuration is missing in a build.
+- Local and published build behavior are aligned.
+- Backup registry and restore behavior from previous releases remain unchanged.
 
-## Changes included from v1.5.9 to v1.6.5
+## Changes included from v1.5.9 to v1.6.6
 
 ### v1.5.9
 
@@ -72,18 +71,17 @@ Updater metadata:
 - SAP services under the same SAP node imported as Connections of the same Client.
 - SAP import does not create VPNs, users, credentials or passwords.
 
-### v1.6.5
+### v1.6.6
 
-- Windows Hello unlock support on Windows.
-- Configure Windows Hello after master-password unlock.
-- Login-screen Windows Hello unlock when configured and available.
-- Windows Security prompt stays visible above Vault during verification.
-- DPAPI CurrentUser protection for the local VaultKey unlock secret.
-- Master-password unlock remains available as fallback.
+- GitHub release builds receive the Google Drive OAuth secrets needed for connection.
+- Release validation blocks builds without Google Client ID or Client Secret configured.
+- Google Drive shows a clearer message when OAuth configuration is missing in a build.
+- Local and published build behavior are aligned.
+- Backup registry and restore behavior from previous releases remain unchanged.
 
 ## Manual installation
 
-1. Download `Vault_1.6.5_x64-setup.exe`.
+1. Download `Vault_1.6.6_x64-setup.exe`.
 2. Run the installer.
 3. Existing user data is preserved.
 
