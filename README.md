@@ -1,10 +1,10 @@
-# Vault v1.6.6
+# Vault v1.6.7
 
 Vault is a local-first desktop app for organizing protected operational connection data.
 
 ## Download
 
-- Vault_1.6.6_x64-setup.exe
+- Vault_1.6.7_x64-setup.exe
 
 ## Automatic updates
 
@@ -14,17 +14,17 @@ Updater metadata:
 
 - latest.json
 - release-summary.json
-- Vault_1.6.6_x64-setup.exe.sig
+- Vault_1.6.7_x64-setup.exe.sig
 
-## What is new in v1.6.6
+## What is new in v1.6.7
 
-- GitHub release builds receive the Google Drive OAuth secrets needed for connection.
-- Release validation blocks builds without Google Client ID or Client Secret configured.
-- Google Drive shows a clearer message when OAuth configuration is missing in a build.
-- Local and published build behavior are aligned.
-- Backup registry and restore behavior from previous releases remain unchanged.
+- Google Drive now has a clear expired-token reconnect state.
+- Reconnect, reset and disconnect commands are available for Google Drive.
+- Google Drive reset removes only local OAuth tokens and leaves local and remote backups intact.
+- Interrupted OAuth attempts release the connect guard instead of leaving connect_already_in_progress stuck.
+- Backup registry cloud presence is handled deterministically.
 
-## Changes included from v1.5.9 to v1.6.6
+## Changes included from v1.5.9 to v1.6.7
 
 ### v1.5.9
 
@@ -71,17 +71,17 @@ Updater metadata:
 - SAP services under the same SAP node imported as Connections of the same Client.
 - SAP import does not create VPNs, users, credentials or passwords.
 
-### v1.6.6
+### v1.6.7
 
-- GitHub release builds receive the Google Drive OAuth secrets needed for connection.
-- Release validation blocks builds without Google Client ID or Client Secret configured.
-- Google Drive shows a clearer message when OAuth configuration is missing in a build.
-- Local and published build behavior are aligned.
-- Backup registry and restore behavior from previous releases remain unchanged.
+- Google Drive now has a clear expired-token reconnect state.
+- Reconnect, reset and disconnect commands are available for Google Drive.
+- Google Drive reset removes only local OAuth tokens and leaves local and remote backups intact.
+- Interrupted OAuth attempts release the connect guard instead of leaving connect_already_in_progress stuck.
+- Backup registry cloud presence is handled deterministically.
 
 ## Manual installation
 
-1. Download `Vault_1.6.6_x64-setup.exe`.
+1. Download `Vault_1.6.7_x64-setup.exe`.
 2. Run the installer.
 3. Existing user data is preserved.
 
