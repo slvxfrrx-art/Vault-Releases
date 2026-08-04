@@ -1,10 +1,10 @@
-# Vault v1.6.7
+# Vault v1.7.0
 
 Vault is a local-first desktop app for organizing protected operational connection data.
 
 ## Download
 
-- Vault_1.6.7_x64-setup.exe
+- Vault_1.7.0_x64-setup.exe
 
 ## Automatic updates
 
@@ -14,17 +14,18 @@ Updater metadata:
 
 - latest.json
 - release-summary.json
-- Vault_1.6.7_x64-setup.exe.sig
+- Vault_1.7.0_x64-setup.exe.sig
 
-## What is new in v1.6.7
+## What is new in v1.7.0
 
-- Google Drive now has a clear expired-token reconnect state.
-- Reconnect, reset and disconnect commands are available for Google Drive.
-- Google Drive reset removes only local OAuth tokens and leaves local and remote backups intact.
-- Interrupted OAuth attempts release the connect guard instead of leaving connect_already_in_progress stuck.
-- Backup registry cloud presence is handled deterministically.
+- Vault Desktop links to a Vault Platform account through the browser.
+- License selection happens on Vault Platform, without manual license key entry in the desktop.
+- Approved devices are associated securely and can be revoked from the site.
+- Signed offline license tokens allow local validation for up to 7 days offline.
+- Operational Vault functions require a valid license, while local data is never deleted by licensing.
+- Vault uses a stable UUID v4 device ID instead of sensitive hardware fingerprinting.
 
-## Changes included from v1.5.9 to v1.6.7
+## Changes included from v1.5.9 to v1.7.0
 
 ### v1.5.9
 
@@ -71,17 +72,18 @@ Updater metadata:
 - SAP services under the same SAP node imported as Connections of the same Client.
 - SAP import does not create VPNs, users, credentials or passwords.
 
-### v1.6.7
+### v1.7.0
 
-- Google Drive now has a clear expired-token reconnect state.
-- Reconnect, reset and disconnect commands are available for Google Drive.
-- Google Drive reset removes only local OAuth tokens and leaves local and remote backups intact.
-- Interrupted OAuth attempts release the connect guard instead of leaving connect_already_in_progress stuck.
-- Backup registry cloud presence is handled deterministically.
+- Account-based licensing through Vault Platform.
+- Browser-based desktop account linking.
+- License selection through the Vault Platform Area Personale.
+- Secure approved-device association and revocation.
+- Signed offline token validation with a maximum offline period of 7 days.
+- Local data is preserved when licensing is invalid.
 
 ## Manual installation
 
-1. Download `Vault_1.6.7_x64-setup.exe`.
+1. Download `Vault_1.7.0_x64-setup.exe`.
 2. Run the installer.
 3. Existing user data is preserved.
 
