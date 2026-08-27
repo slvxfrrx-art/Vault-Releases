@@ -1,10 +1,10 @@
-# Vault v1.7.1
+# Vault v1.8.0
 
 Vault is a local-first desktop app for organizing protected operational connection data.
 
 ## Download
 
-- Vault_1.7.1_x64-setup.exe
+- Vault_1.8.0_x64-setup.exe
 
 ## Automatic updates
 
@@ -14,18 +14,18 @@ Updater metadata:
 
 - latest.json
 - release-summary.json
-- Vault_1.7.1_x64-setup.exe.sig
+- Vault_1.8.0_x64-setup.exe.sig
 
-## What is new in v1.7.1
+## What is new in v1.8.0
 
-- Vault Desktop links to a Vault Platform account through the browser.
-- License selection happens on Vault Platform, without manual license key entry in the desktop.
-- Approved devices are associated securely and can be revoked from the site.
-- Signed offline license tokens allow local validation for up to 7 days offline.
-- Operational Vault functions require a valid license, while local data is never deleted by licensing.
-- Vault uses a stable UUID v4 device ID instead of sensitive hardware fingerprinting.
+- Personal remains the legacy Vault app with the existing updater channel and classic Windows installer names.
+- Vault Business has a separate application identity, storage profile, and updater endpoint.
+- Business Owner activation uses the licensing contract v2 foundation with root/child owner metadata.
+- Business Member provisioning includes stable device identity, signed device proof, signed accept/reject, and secure token exchange.
+- Personal and Business release routing are separated through p-vX.Y.Z, b-vX.Y.Z, and pb-vX.Y.Z source tags.
+- Business Sync, Vault Platform Backup, hierarchy editing, permissions, Change Requests, and key rotation UI are not included in this release.
 
-## Changes included from v1.5.9 to v1.7.1
+## Changes included from v1.5.9 to v1.8.0
 
 ### v1.5.9
 
@@ -72,18 +72,18 @@ Updater metadata:
 - SAP services under the same SAP node imported as Connections of the same Client.
 - SAP import does not create VPNs, users, credentials or passwords.
 
-### v1.7.1
+### v1.8.0
 
-- Account-based licensing through Vault Platform.
-- Browser-based desktop account linking.
-- License selection through the Vault Platform Area Personale.
-- Secure approved-device association and revocation.
-- Signed offline token validation with a maximum offline period of 7 days.
-- Local data is preserved when licensing is invalid.
+- Personal legacy compatibility preserved.
+- Licensing contract v2 and edition separation foundation.
+- Vault Business app identity and release channel foundation.
+- Business Owner root/child activation metadata.
+- Business Member stable Device ID, Ed25519 device proof, signed accept/reject, and secure token exchange.
+- Personal and Business updater channel separation.
 
 ## Manual installation
 
-1. Download `Vault_1.7.1_x64-setup.exe`.
+1. Download `Vault_1.8.0_x64-setup.exe`.
 2. Run the installer.
 3. Existing user data is preserved.
 
