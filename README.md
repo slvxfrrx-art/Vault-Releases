@@ -1,10 +1,10 @@
-# Vault v1.9.9
+# Vault v2.0.0
 
 Vault is a local-first desktop app for organizing protected operational connection data.
 
 ## Download
 
-- Vault_1.9.9_x64-setup.exe
+- Vault_2.0.0_x64-setup.exe
 
 ## Automatic updates
 
@@ -14,18 +14,18 @@ Updater metadata:
 
 - latest.json
 - release-summary.json
-- Vault_1.9.9_x64-setup.exe.sig
+- Vault_2.0.0_x64-setup.exe.sig
 
-## What is new in v1.9.9
+## What is new in v2.0.0
 
-- Personal remains the legacy Vault app with the existing updater channel and classic Windows installer names.
-- Vault Business has a separate application identity, storage profile, and updater endpoint.
-- Business Owner activation uses the licensing contract v2 foundation with root/child owner metadata.
-- Business Member provisioning includes stable device identity, signed device proof, signed accept/reject, and secure token exchange.
-- Personal and Business release routing are separated through p-vX.Y.Z, b-vX.Y.Z, and pb-vX.Y.Z source tags.
-- Business Sync, Vault Platform Backup, hierarchy editing, permissions, Change Requests, and key rotation UI are not included in this release.
+- New local encrypted Documentation workspace alongside Local systems.
+- Explorer-style folders, breadcrumbs, grid/list views and encrypted Vault notes with images.
+- Built-in previews for notes, text, images and PDF documents.
+- One-way linked folder structure follows additions, renames and moves in Local systems.
+- Explicit file export and complete folder ZIP export.
+- Available in Personal and Business while remaining local to the device.
 
-## Changes included from v1.5.9 to v1.9.9
+## Changes included from v1.5.9 to v2.0.0
 
 ### v1.5.9
 
@@ -72,18 +72,18 @@ Updater metadata:
 - SAP services under the same SAP node imported as Connections of the same Client.
 - SAP import does not create VPNs, users, credentials or passwords.
 
-### v1.9.9
+### v2.0.0
 
-- Personal legacy compatibility preserved.
-- Licensing contract v2 and edition separation foundation.
-- Vault Business app identity and release channel foundation.
-- Business Owner root/child activation metadata.
-- Business Member stable Device ID, Ed25519 device proof, signed accept/reject, and secure token exchange.
-- Personal and Business updater channel separation.
+- Local encrypted Documentation workspace with linked system folders.
+- Vault notes with embedded images and view-first editing.
+- Integrated note, text, image and PDF preview.
+- Drag-and-drop organization and explicit file or folder ZIP export.
+- Documentation counts visible on linked Local system nodes.
+- Personal and Business support with no team synchronization.
 
 ## Manual installation
 
-1. Download `Vault_1.9.9_x64-setup.exe`.
+1. Download `Vault_2.0.0_x64-setup.exe`.
 2. Run the installer.
 3. Existing user data is preserved.
 
