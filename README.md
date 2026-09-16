@@ -1,10 +1,10 @@
-# Vault v2.0.0
+# Vault v2.0.7
 
 Vault is a local-first desktop app for organizing protected operational connection data.
 
 ## Download
 
-- Vault_2.0.0_x64-setup.exe
+- Vault_2.0.7_x64-setup.exe
 
 ## Automatic updates
 
@@ -14,18 +14,17 @@ Updater metadata:
 
 - latest.json
 - release-summary.json
-- Vault_2.0.0_x64-setup.exe.sig
+- Vault_2.0.7_x64-setup.exe.sig
 
-## What is new in v2.0.0
+## What is new in v2.0.7
 
-- New local encrypted Documentation workspace alongside Local systems.
-- Explorer-style folders, breadcrumbs, grid/list views and encrypted Vault notes with images.
-- Built-in previews for notes, text, images and PDF documents.
-- One-way linked folder structure follows additions, renames and moves in Local systems.
-- Explicit file export and complete folder ZIP export.
-- Available in Personal and Business while remaining local to the device.
+- New three-session promotional tutorial dedicated to Documentation.
+- Guided coverage of local protection, organization, notes, import, preview and export.
+- Searchable A-Z linked folder tree and window-aware independent scrolling.
+- Empty references to archived or deleted System nodes are cleaned up safely while personal content is preserved.
+- Available in every supported language and restartable from Tutorial Center.
 
-## Changes included from v1.5.9 to v2.0.0
+## Changes included from v1.5.9 to v2.0.7
 
 ### v1.5.9
 
@@ -72,18 +71,16 @@ Updater metadata:
 - SAP services under the same SAP node imported as Connections of the same Client.
 - SAP import does not create VPNs, users, credentials or passwords.
 
-### v2.0.0
+### v2.0.7
 
-- Local encrypted Documentation workspace with linked system folders.
-- Vault notes with embedded images and view-first editing.
-- Integrated note, text, image and PDF preview.
-- Drag-and-drop organization and explicit file or folder ZIP export.
-- Documentation counts visible on linked Local system nodes.
-- Personal and Business support with no team synchronization.
+- Dedicated Documentation promo tutorial in every supported language.
+- Searchable linked folder tree with consistent A-Z ordering.
+- Responsive tree, browser and preview with independent scrolling.
+- Safe cleanup of empty archived or deleted linked nodes while preserving personal content.
 
 ## Manual installation
 
-1. Download `Vault_2.0.0_x64-setup.exe`.
+1. Download `Vault_2.0.7_x64-setup.exe`.
 2. Run the installer.
 3. Existing user data is preserved.
 
